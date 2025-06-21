@@ -1,4 +1,4 @@
-# 😊 Sentiment Analysis
+# 😊 Sentiment Analysis (TRAINED ON MOVIE REVIEWS)
 A lightweight Streamlit app that classifies user reviews as Positive, Neutral, or Negative using a PyTorch model.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
