@@ -49,7 +49,7 @@ if st.button("Analyze"):
             # Sentiment logic
             if pred_labels.item() < 0.3:
                 st.error("😠 Negative Statement")
-            elif 0.4 < pred_labels.item() < 0.7:
+            elif 0.3 < pred_labels.item() < 0.7:
                 st.info("😐 Neutral Statement")
             else:
                 st.success("😊 Positive Statement")
