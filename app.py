@@ -19,7 +19,7 @@ class Sentiment(nn.Module):
         return self.layer3(self.relu(self.layer2(self.relu(self.layer1(x)))))
 
 # Load the SentenceTransformer model
-model = SentenceTransformer('all-MiniLM-L6-v2',)
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Load the trained sentiment model
 model2 = Sentiment()
